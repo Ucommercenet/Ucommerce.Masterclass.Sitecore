@@ -5,7 +5,7 @@ using Ucommerce.EntitiesV2;
 using Ucommerce.Infrastructure;
 using Ucommerce.Masterclass.Models;
 
-namespace Ucommerce.Masterclass.Models
+namespace Ucommerce.Masterclass.Sitecore.Controllers
 {
     public class MasterClassBillingController : Controller
     {
