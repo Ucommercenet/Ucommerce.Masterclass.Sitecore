@@ -5,6 +5,7 @@ Remember to do the following to web.config for confirmation email to work:
 
 1. Add to web.config:
 
+```xml
   <system.net>
     <mailSettings>
       <smtp deliveryMethod="SpecifiedPickupDirectory">
@@ -12,5 +13,6 @@ Remember to do the following to web.config for confirmation email to work:
       </smtp>
     </mailSettings>
   </system.net>
+
 
 2. Change payment methods to use default payment provider, and set an acceptUrl.
